@@ -36,11 +36,11 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(
   cors({
-    origin: [
-      'http://localhost:5173',
-      'http://localhost:5175',
-      'https://travelhub.vercel.app'
-    ],
+origin: [
+  'http://localhost:5173',
+  'http://localhost:5175',
+  'https://travelhub-eta-liart.vercel.app'
+],
     credentials: true,
   })
 );
